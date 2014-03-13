@@ -1,3 +1,7 @@
+#active {
+	background: #C7C7C8;
+}
+
 body {
 	background: #A4A4A3;
 	color: #303030;
@@ -18,12 +22,17 @@ h5 {
 	font-weight: bold;
 }
 
+.lower_menu {
+	margin-top: 1rem;
+}
+
 p {
 	margin: 0rem;
 }
 
-.lower_menu {
-	margin-top: 1rem;
+.panel {
+	background: #C7C7C8;
+	border: none;
 }
 
 /* --------- links -----------*/
