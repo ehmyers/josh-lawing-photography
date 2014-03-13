@@ -26,11 +26,23 @@ p {
 	margin-top: 1rem;
 }
 
-/* -- links --*/
+/* --------- links -----------*/
+/* -- headers --*/
 
 .bigger_menu a:link {
 	color: #303030;
 }
+
+.bigger_menu a:visited {
+	color: #303030;
+}
+
+.bigger_menu a:hover {
+	background: #C7C7C8;
+	color: #303030;
+}
+
+/* -- general --*/
 
 a:link {
 	text-decoration: none; 
