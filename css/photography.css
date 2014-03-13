@@ -1,0 +1,22 @@
+body {
+	background: #A4A4A3;
+	color: #303030;
+}
+
+h3 {
+	margin-top: 2.6rem;
+	margin-bottom: 3.0rem;
+}
+
+h5 {
+	margin: 0rem;
+	margin-bottom: .4rem;
+}
+
+p {
+	margin: 0rem;
+}
+
+.lower_menu {
+	margin-top: 1rem;
+}
