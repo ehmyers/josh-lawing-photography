@@ -8,6 +8,12 @@ function spotlightShow(content) {
     $("#" + content).show();
 }
 
+// hides the spotlight and the image that was previously made large
+function spotlightHide() {
+    $(".spotlight").hide();
+    $(".spotlight").children().hide();
+}
+
 $(document).ready(function () {
     "use strict";
 
@@ -19,7 +25,8 @@ $(document).ready(function () {
 
         // getting the alt tag
         var content = $(this).attr("data-content"),
-            sidemenu = $("#" + content).attr("data-menu");
+            sidemenu = $("#" + content).attr("data-menu"),
+            menuToHighlight = document.querySelector("data-menuid");
 
         console.log("the content is " + content + " from main function");
         console.log("the sidemenu connected to that is " + sidemenu);
@@ -29,13 +36,13 @@ $(document).ready(function () {
         spotlightShow(content);
 
         // highlights the corresponding menu item
-        $(".menu").children()
+        console.log("the correct menu to highlight is " + menuToHighlight);
 
     });
 
     // minimizes photo back to main launchpad
     $(".spotlight").click(function () {
-        $(".spotlight").hide();
+        spotlightHide();
         $(".launchpad").show();
     });
 
@@ -44,7 +51,7 @@ $(document).ready(function () {
         // console.log("You clicked a menu item");
 
         // fades out content, and photo grid in
-        $(".spotlight").hide();
+        spotlightHide();
         $(".launchpad").show();
     });
 
