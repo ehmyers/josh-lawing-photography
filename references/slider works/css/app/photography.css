@@ -1,0 +1,105 @@
+#active {
+	background: #C7C7C8;
+}
+
+body {
+	background: #A4A4A3;
+	color: #303030;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #303030;
+}
+
+h2 {
+	margin-top: 2.6rem;
+	margin-bottom: 3.0rem;
+}
+
+h5 {
+	margin: 0rem;
+	font-weight: bold;
+}
+
+.logo {
+	width: 100px;
+}
+
+.lower_menu {
+	margin-top: 1rem;
+}
+
+.orbit-wrapper .slider-nav span.right {
+background: url('../../img/foundation/orbit/right-arrow.png');
+background-size: 100%;
+right: 0;
+}
+
+.orbit-wrapper .slider-nav span.left {
+background: url('../../img/foundation/orbit/left-arrow.png');
+background-size: 100%;
+left: 0;
+}
+
+p {
+	margin: 0rem;
+}
+
+.panel {
+	background: #C7C7C8;
+	border: none;
+}
+
+#title {
+	bottom: 0px;
+	font-size: .75em;
+}
+
+/* --------- links -----------*/
+/* -- headers --*/
+
+.bigger_menu a:link {
+	color: #303030;
+}
+
+.bigger_menu a:visited {
+	color: #303030;
+}
+
+.bigger_menu a:hover {
+	background: #C7C7C8;
+	color: #303030;
+}
+
+/* -- general --*/
+
+a:link {
+	text-decoration: none; 
+	border: 0;
+	color: #303030;
+}
+
+a:visited {
+	text-decoration: none;
+	border: 0; 
+	color: #303030;
+}
+
+a:hover {
+	text-decoration: none;
+	border: 0;
+	color: #C7C7C8;
+	background: #303030;
+}
+
+a:active {
+	text-decoration: none; 
+	border: 0;
+	color: #C7C7C8;
+}
+
+.contact a:hover {
+	color: #C7C7C8;
+	background: #303030;
+}

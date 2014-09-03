@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+body {
+	background-image: url("../../../media/basic/gplaypattern.png");
+	background-color: #A4A4A3;
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	color: #303030;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* overriding the left padding for the zurb class */
+.columns {
+	padding-left: 0;
+}
+
+header {
+	width: 100%;
+	height: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #303030;
+}
+
+h1 {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.15em;
+	font-weight: normal;
+}
+
+.header a {
+	padding: 3px;
+}
+
+#logo {
+	margin: 50px 0px 25px 0px;
+	font-size: 2.2em;
+}
+
+#logo img {
+	padding-bottom: 10px;
+}
+
+.lower_menu {
+	padding-top: 5px;
+}
+
+.thumbnail {
+	padding: 5px;
+}
+
+/******************** launchpad ******************/
+
+.launchpad {
+
+}
+
+.pad {
+	padding: 20px;
+}
+
+.textbox {
+	background: #888888;
+}
+
+/**************** nav **************************/
+
+.navAndContent {
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	top: 225px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	font-size: .95em;
+}
+
+/******************** links *********************/
+
+#active {
+	color: #C7C7C8;
+	background: #303030;
+}
+
+a:link {
+	text-decoration: none; 
+	border: 0;
+	color: #303030;
+}
+
+a:visited {
+	text-decoration: none;
+	border: 0; 
+	color: #303030;
+}
+
+a:hover {
+	text-decoration: none;
+	border: 0;
+	color: #C7C7C8;
+	background: #303030;
+}
+
+a:active {
+	text-decoration: none; 
+	border: 0;
+	color: #C7C7C8;
+}
+
+/******* side-nav edits from foundation ***********/
+
+.side-nav li a:not(.button) {
+	color: #303030;
+	padding: 1px;
+}
+
+.side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
+	background: rgba(0, 0, 0, 0.025);
+	color: #8e3c49;
+}
+
+/**************** spotlight **********************/
+
+.spotlight {
+	display: none;
+	padding: 50px 20px 20px 50px;
+	background-color: #bfbfbf;
+}
+
+.spotlight_item {
+	width: 80%;
+	display: none;
+}
+
+.spotlight_item img {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-top: -20px;
+}
+
+/************************************************/
+
+/*.horizontal img {
+	width: 85%;
+	height: auto;
+}
+
+.vertical img {
+	width: auto;
+	height: 85%;
+}*/
