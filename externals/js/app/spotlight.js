@@ -26,10 +26,7 @@ function addMenuHighlight(menuToHighlight) {
 
 // removes the highlighting on the menu when spotlight is clicked
 function removeMenuHighlight() {
-    // allDivsButPhotos.classList.toggle("active", false);
-
     $("a.active").toggleClass();
-
 }
 
 $(document).ready(function () {

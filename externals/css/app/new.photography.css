@@ -62,7 +62,6 @@ ul {
 /******************** launchpad ******************/
 
 .launchpad {
-
 }
 
 .launchpad img:hover{
@@ -93,13 +92,13 @@ ul {
 /******************** links *********************/
 
 #active {
-	color: #C7C7C8;
-	background: #303030;
+	/*color: #C7C7C8;*/
+	background: #808080;
 }
 
 .active {
-	color: #C7C7C8;
-	background: #303030;
+	/*color: #C7C7C8;*/
+	background: #808080;
 }
 
 a:link {
