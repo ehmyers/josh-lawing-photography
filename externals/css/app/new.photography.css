@@ -97,6 +97,11 @@ ul {
 	background: #303030;
 }
 
+.active {
+	color: #C7C7C8;
+	background: #303030;
+}
+
 a:link {
 	text-decoration: none; 
 	border: 0;
