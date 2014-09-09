@@ -5,3 +5,5 @@ WEBSITE UPDATED SEPTEMBER 3RD
 - content for the portraits page
 
 - review all photo names
+
+- create pricing workup
